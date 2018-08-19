@@ -6,8 +6,7 @@ RUN mkdir /project
 WORKDIR /project
 
 #ADD --chown=node:node startup.sh /startup.sh
-
-RUN chmod +x /startup.sh
+#RUN chmod +x /startup.sh
 
 USER node
 

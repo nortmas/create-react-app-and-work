@@ -2,8 +2,8 @@ version: '3'
 
 services:
   create_react_app:
-    image: '0x20h/create-react-app'
-    container_name: 'create_react_app'
+    image: 'nortmas/create-react-app-and-work'
+    container_name: 'create_react_app_and_work'
     command: react-app
     ports:
       - 3000:3000
