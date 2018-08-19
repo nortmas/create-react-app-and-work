@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  create_react_app:
+    image: '0x20h/create-react-app'
+    container_name: 'create_react_app'
+    command: react-app
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/project
